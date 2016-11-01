@@ -2,7 +2,7 @@ from IPython.core.pylabtools import figsize
 figsize(12.5, 3.5)
 import scipy.stats as stats
 from scipy.stats import nbinom
-import pymc as pm
+import pymc3 as pm
 import numpy as np
 import pandas as pd
 import scipy.stats as st
